@@ -1,0 +1,105 @@
+body {
+    font-family: sans-serif;
+    color: #864107;
+    background-color: #ffedd1;
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/21/15/47/wood-1846059_640.jpg);
+}
+header {
+     text-align: center;
+     background-color: rgb(255, 214, 139);
+     padding: 10px;
+}
+h3,h2{
+     text-align: center;
+}
+footer{
+    background-color: #fdddb2;
+    padding: 20px;
+}
+.prycladu {
+    background-color: rgb(233, 195, 126);
+    padding:15px;
+}
+.materialy {
+    background-color: hsl(39, 95%, 84%);
+    padding: 10px 0;
+    width: 100%;
+}
+.robota {
+   width: 45%;
+   margin: 10px;
+   border: 2px solid rgb(63, 34, 17);
+    transition: 1s;
+    background-color: #ffedd1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.robota:hover {
+    color: rgb(111, 41, 0);
+    transform: scale(1.05);
+    transition: 1s;
+    background-color: #f3d4a3;
+    box-shadow: 5px 5px 2px 0 #6c5e47;
+}
+.roboty_section {
+    display: flex;
+    flex-wrap: wrap;
+}
+nav {
+    text-align: center;
+}
+nav p {
+    font-size: 20px;
+    border-radius: 40px;
+    background-color: rgb(255, 220, 174);
+    padding: 10px;
+    margin: 30px;
+    display: inline-block;
+    transition: 0.5s;
+}
+nav p:hover {
+    transform: scale(1.1);
+    box-shadow: 0 2px 0 0 #864107;
+    transition: 0.5s;
+}
+.minule {
+    font-size: 17px;
+    text-align: center;
+    color: #4e2401;
+    background-color: #ffe6b8;
+    border-radius: 15px;
+    transition: 0.5s;
+    padding-bottom:15px;
+}
+.minule:hover {
+    background-color: #eccd92;
+    box-shadow: 0 3px 5px 0 #6c5e47;
+    transform: scale(1.01);
+}
+iframe {
+    height: 300px;
+    border-radius: 30px;
+    border: 4px solid #c07538;
+}
+.iframe {
+    border-top: 5px solid #4e2401;
+    border-bottom: 5px solid #4e2401;
+    padding: 20px;
+}
+h1:focus {
+    color: rgb(190, 160, 104);
+    background-color: #864107;
+}
+a {
+    color: #864107;
+}
+footer p {
+    display: flex;
+    align-items: center;
+}
+footer img {
+    margin-left: 15px;
+}
+
